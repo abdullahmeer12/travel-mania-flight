@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body>
+      <body id='main_cstm-class'>
         <Main />
         <NextScript />
       </body>
