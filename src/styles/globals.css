@@ -300,11 +300,15 @@ ul.header_links a svg {
   color: white;
 }
 
+
+
 .inner_header-profile {
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
+
 
 .inner_header-profile img {
   width: 30px;
