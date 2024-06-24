@@ -8,6 +8,7 @@ import { MdOutlineLocalPhone } from "react-icons/md";
 import { CiMail } from "react-icons/ci";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import Newsletter from '../Newsletter/Newsletter';
+import Image from 'next/image';
 
 
 const Footer = () => {
@@ -19,7 +20,7 @@ const Footer = () => {
           <div className="row">
                 <div className="col-md-6 col-xl-4 col-sm-12">
                   <div className="foot_about">
-                    <img src="/images/logo2.png" alt="alt" />
+                    <Image src="/images/logo2.png" width={135} height={60} alt="alt" />
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                     <ul>
                       <li><Link href={"/"}><FaFacebookF /></Link></li>
@@ -58,7 +59,7 @@ const Footer = () => {
                 <div className="col-md-6 col-xl-3 col-sm-12">
                   <div className="foot_instagram">
                       <h4>Follow Us On @instagram</h4>
-                      <img src="/images/footer_insta.png" alt="alt" />
+                      <Image width={325} height={210} src="/images/footer_insta.png" alt="alt" />
                   </div>
                 </div>
           </div>

@@ -11,7 +11,7 @@
           <h5>Your Gateway to Seamless Travel Experiences</h5>
           <p>
             Welcome to Travel Menia, where your travel dreams take flight!
-            We're not just another booking platform – we're your one-stop
+            We&lsquo;re not just another booking platform  were your one-stop
             destination for everything you need to plan your next
             adventure with ease and confidence
           </p>

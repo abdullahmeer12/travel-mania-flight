@@ -83,8 +83,8 @@ const about = () => {
                     destinations
                   </h6>
                   <p>
-                    At FlightFinder, we're dedicated to making your travel
-                    experience seamless and stress-free. Here's why savvy
+                    At FlightFinder, we&lsquo;re dedicated to making your travel
+                    experience seamless and stress-free. Here&lsquo;s why savvy
                     travelers trust us for their flight bookings e have been
                     wing with hundreds of clients across all industries. Our
                     dyed-in-the-wool, as we have been wing with hundreds of
@@ -112,7 +112,7 @@ const about = () => {
               <div className="col-sm-12">
                 <div className="book-advent-txt">
                   <h2>Book Your Adventure Now!</h2>
-                  <p>Discover Pakistan's Hidden Treasures</p>
+                  <p>Discover Pakistan&lsquo;s Hidden Treasures</p>
                   <Link href={"/"} className="btn10">
                     Discover Now
                   </Link>

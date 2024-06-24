@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -49,7 +50,7 @@ const PlaneTrip = () => {
                 {tripData?.map((iteam,index)=>{
                   return(
                     <li key={index}>
-                        <img src={iteam?.imgUrl} alt="images" />
+                        <Image width={90} height={90} src={iteam?.imgUrl} alt="images" />
                         <div>
                             <h6>{iteam?.destination}</h6>
                             <p>{iteam?.city}</p>
