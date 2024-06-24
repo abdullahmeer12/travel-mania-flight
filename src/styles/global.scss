@@ -18,6 +18,8 @@ body {
 }
 
 
+#main_cstm-class{
+
 
 a {
   color: inherit;
@@ -483,21 +485,10 @@ li.drop_down:hover ul {
   align-items: center;
 }
 
-.form_book-swap button.btn.btn-secondary {
-  background: transparent;
-  color: black;
-  border: 0;
-  font-size: 24px;
-}
 .booking_form-inn  .form_book-form {
   width: 19%;
 }
-
-.form_book-swap {
-  width: 45px;
-  margin-top: 30px;
-  padding: 0;
-}
+ 
 
 .booking_form-inn {
   align-items: center;
@@ -1276,4 +1267,6 @@ footer h4 {
   left: 0;
   transition: .5s ease-in-out;
 }
+}
+
 }
