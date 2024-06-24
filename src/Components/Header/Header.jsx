@@ -77,13 +77,13 @@ const Header = () => {
                 {isAuthenticated ? (
                   <li className="drop_down">
                     <div className="header-profile"> 
-                     <img src={user?.picture} alt="image" />
+                     <Image width={30} height={30} src={user?.picture} alt="image" />
                      <VscChevronDown/>
                     </div>
                     <ul>
                       <li>
                         <div className="inner_header-profile">
-                          <img src={user?.picture} alt="image" />
+                          <Image width={30} height={30} src={user?.picture} alt="image" />
                           <p> {user?.nickname}</p>
                         </div> 
                       </li>

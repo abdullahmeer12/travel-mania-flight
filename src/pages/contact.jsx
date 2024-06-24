@@ -6,7 +6,7 @@ import Link from "next/link";
 import { GoMail } from "react-icons/go";
 import { BsTelephone } from "react-icons/bs";
 import { SlLocationPin } from "react-icons/sl";
-import { Image } from "react-bootstrap";
+import Image from "next/image"; 
 
 const data = [
     {
@@ -63,7 +63,7 @@ const contact = () => {
                             </Link>
                         </li>
                     </ul>
-                    <img src="/images/contact-detail-img.png" alt="img" />
+                    <Image width={385} height={275} src="/images/contact-detail-img.png" alt="img" />
                 </div>
               </div>
               <div className="col-sm-12 col-md-6">
