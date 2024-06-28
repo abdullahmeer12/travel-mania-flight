@@ -38,6 +38,8 @@ body {
   /* mission sec css  */
   /* contact css */
   /* contact css end */
+  /* search page css start */
+  /* search page css End */
   /* Media Query */
 }
 #main_cstm-class a {
@@ -888,6 +890,280 @@ body {
 #main_cstm-class .contact-detail > p {
   width: 70%;
 }
+#main_cstm-class .flight-search-sec {
+  padding: 50px 0;
+}
+#main_cstm-class .search-main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #2B70E4;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+#main_cstm-class .search-main .icn-txt > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+#main_cstm-class .search-main .icn-txt p {
+  margin-bottom: 0;
+}
+#main_cstm-class .search-main .icn {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: aliceblue;
+  font-size: 30px;
+  border-radius: 2px;
+}
+#main_cstm-class .search-main .icn-txt > div span {
+  color: white;
+  font-size: 20px;
+}
+#main_cstm-class .search-main .icn-txt > div svg {
+  color: white;
+  font-size: 20px;
+}
+#main_cstm-class .search-main .icn-txt p span {
+  color: white;
+}
+#main_cstm-class .search-sidebar {
+  padding: 20px;
+  background: #F7F8FF;
+}
+#main_cstm-class .search-main-bar {
+  margin-bottom: 40px;
+}
+#main_cstm-class .search-sidebar-head h3 {
+  font-size: 30px;
+  margin: 0;
+}
+#main_cstm-class .search-sidebar-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#main_cstm-class .search-sidebar-head button.btn10 {
+  padding: 10px 30px;
+  border: 0;
+}
+#main_cstm-class .sidebar-filter-inn h6 {
+  font-size: 20px;
+  margin-bottom: 23px;
+}
+#main_cstm-class .sidebar-filter-inn {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #393939;
+}
+#main_cstm-class .sidebar-filter-inn li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#main_cstm-class .sidebar-filter-inn li:not(:last-child) {
+  margin-bottom: 20px;
+}
+#main_cstm-class .sidebar-filter-inn li input[type=checkbox] {
+  width: 17px;
+  height: 17px;
+}
+#main_cstm-class .flight_card-mn {
+  background: #f7f8ff;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+#main_cstm-class .flight_card-mn .flight_card-deatil-1 {
+  width: 77%;
+}
+#main_cstm-class .flight_card-mn .flight_card-deatil-1 .flight-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#main_cstm-class .flight_card-mn .flight_card-deatil-1 .flight-logo p {
+  margin: 0;
+}
+#main_cstm-class .flight-timming {
+  margin-top: 30px;
+  padding-right: 30px;
+  border-right: 1px solid #5C5C5C;
+}
+#main_cstm-class .flight-time-inn {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#main_cstm-class .flight-time-inn .accordion {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+#main_cstm-class .flight-time-inn .flight-time-strt {
+  width: 15%;
+  text-align: center;
+}
+#main_cstm-class .flight-time-inn .flight-line {
+  width: 70%;
+  text-align: center;
+}
+#main_cstm-class .flight-time-inn .flight-line p {
+  margin: 0;
+}
+#main_cstm-class .flight-time-inn .flight-time-strt p {
+  margin: 0;
+  color: #2B70E4;
+  font-size: 14px;
+}
+#main_cstm-class .flight-time-inn .flight-line svg {
+  width: 100% !important;
+}
+#main_cstm-class .flight_card-deatil-price {
+  text-align: center;
+}
+#main_cstm-class .flight_card-deatil-price button.btn10 {
+  border: 0;
+  margin-top: 20px;
+}
+#main_cstm-class .flight-time-inn .accordion button.accordion-button {
+  background: transparent;
+  border: 0;
+  box-shadow: unset;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background: white;
+  border-radius: 50px !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1215686275);
+}
+#main_cstm-class .flight-time-inn .accordion .accordion-item {
+  background: transparent;
+  border: 0;
+}
+#main_cstm-class .flight-time-inn .accordion button.accordion-button::after {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-position: center center;
+}
+#main_cstm-class .flight-time-inn .accordion .accordion-header {
+  display: flex;
+  justify-content: end;
+}
+#main_cstm-class .search-pg-main-dv p {
+  margin-left: 15px;
+}
+#main_cstm-class .flight-time-strt h6 {
+  font-size: 20px;
+}
+#main_cstm-class .flight-search-sec ul.pagination {
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+#main_cstm-class .flight-search-sec ul.pagination .page-link {
+  border-color: white;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+#main_cstm-class .flight-search-sec ul li.page-item:first-child .page-link span {
+  font-size: 30px;
+  line-height: 1.2;
+  top: -3px;
+  position: relative;
+}
+#main_cstm-class .flight-search-sec ul li.page-item:first-child span.page-link {
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2117647059);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+#main_cstm-class .flight-search-sec ul li.page-item:last-child .page-link {
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2117647059);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main_cstm-class .flight-search-sec ul li.page-item:last-child .page-link span {
+  font-size: 30px;
+  line-height: 1.2;
+  top: -3px;
+  position: relative;
+}
+#main_cstm-class .flight-search-sec ul.pagination .page-item.active span {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main_cstm-class .circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  border: 2px solid #F49728;
+  background-color: white;
+}
+#main_cstm-class .firstCircle {
+  transform: translateY(5px);
+}
+#main_cstm-class .lastCircle {
+  transform: translateY(-5px);
+}
+#main_cstm-class .vertiLine {
+  width: 1px;
+  height: 60px;
+  border: 1px solid #F49728;
+  margin-left: 7px;
+}
+#main_cstm-class .flight-connect h5 {
+  font-size: 20px;
+}
+#main_cstm-class .flight-connect h5 .text-gold1 {
+  color: #F49728;
+}
+#main_cstm-class .sidebar-filter-inn-price h6 {
+  font-size: 20px;
+  margin-bottom: 23px;
+}
+#main_cstm-class .sidebar-filter-inn-price .rs-slider-tooltip.rs-tooltip {
+  width: 70px;
+  text-align: center;
+}
+#main_cstm-class .sidebar-filter-inn-price .rs-slider-progress-bar {
+  background: #2b70e4;
+}
+#main_cstm-class .sidebar-filter-inn-price .rs-slider-handle:before {
+  width: 20px;
+  height: 20px;
+  top: -4px;
+}
+#main_cstm-class .sidebar-filter-inn-price {
+  margin-bottom: 20px;
+}
+#main_cstm-class .sidebar-filter-inn-price .rs-slider {
+  margin: 0 5px;
+}
 @media only screen and (min-width: 300px) and (max-width: 519px) {
   #main_cstm-class .contact-detail > p {
     width: 70%;
@@ -1071,5 +1347,48 @@ body {
   #main_cstm-class .mobile-menu-active.sidebar_main {
     left: 0;
     transition: 0.5s ease-in-out;
+  }
+  #main_cstm-class .search-pg-main-dv {
+    margin-top: 40px;
+  }
+  #main_cstm-class .flight_card-mn .flight_card-deatil-1 {
+    width: 100%;
+  }
+  #main_cstm-class .flight_card-mn {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 20px;
+  }
+  #main_cstm-class .flight-timming {
+    padding-right: 0;
+    border-right: unset;
+  }
+  #main_cstm-class .flight-time-strt h6 {
+    font-size: 15px;
+  }
+  #main_cstm-class .flight-time-inn .flight-time-strt {
+    width: 20%;
+  }
+  #main_cstm-class .flight-time-inn .accordion {
+    margin-right: 0px;
+  }
+  #main_cstm-class .flight-time-inn .flight-line {
+    width: 60%;
+  }
+  #main_cstm-class .flight-time-inn .flight-line p {
+    font-size: 14px;
+  }
+  #main_cstm-class .flight-time-inn .accordion button.accordion-button::after {
+    width: 30px;
+    height: 30px;
+  }
+  #main_cstm-class .flight-connect h5 {
+    font-size: 15px;
+  }
+  #main_cstm-class .search-pg-main-dv p {
+    font-size: 15px;
+  }
+  #main_cstm-class .search-main {
+    padding: 10px 10px;
   }
 }/*# sourceMappingURL=global.css.map */
