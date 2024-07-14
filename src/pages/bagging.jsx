@@ -171,4 +171,4 @@ const Bagging = () => {
   );
 };
 
-export default bagging;
+export default Bagging;
