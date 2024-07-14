@@ -29,12 +29,12 @@ const iconMapping = {
   LiaBedSolid: LiaBedSolid,
 };
 
-const Header = () => {
+const Header = ({noBanner}) => {
   const [mobileMenu, setMobileMenu] = useState(false);
   const { user, loginWithRedirect, isAuthenticated, logout } = useAuth0();
   console.log("user",user)
   return (
-    <section className="header_desktop">
+    <section className={`${noBanner ? "header-Bg-blue":"header-Bg-trans"} header_desktop`}>
       <div className="container">
         <div className="row">
           <div className="col-md-4 col-sm-12 d-none  d-md-block">
