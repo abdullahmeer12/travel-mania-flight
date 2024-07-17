@@ -2284,9 +2284,355 @@ button.primary {
   width: 20px;
   height: 20px;
 }
+
+// hotel booking sec css
+
+.hotel_sec {
+  padding: 80px 0;
+  background: #E4ECF9;
+}
+
+.hotel-head {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.hotel-head h6 {
+  color: #000;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.pop-hotel img {
+  width: 100%;
+  height: 280px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.pop-hotel {
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+}
+
+.pop-hotel h6 {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.pop-hotel ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.pop-hotel ul li {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: black;
+  font-family: 'Urbanist';
+  font-weight: 500;
+  gap: 5px;
+}
+
+.pop-hotel ul li svg {
+  color: #1351D8;
+  font-size: 17px;
+}
+
+.pop-hotel .price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.pop-hotel .price h6 span {
+  font-size: 12px;
+}
+
+.pop-hotel .price h6 {
+  font-size: 30px;
+}
+
+.pop-hotel .price a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1351D8;
+  border-radius: 50px;
+}
+
+.pop-hotel .price a svg {
+  font-size: 23px;
+  color: white;
+}
+
+.pop-hotel p {
+  margin-bottom: 20px;
+}
+
+.pop-dest-sec {
+  padding: 80px 0;
+}
+
+.pop-dest-head ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pop-dest-head h6 {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.pop-dest-head {
+  margin-bottom: 30px;
+}
+
+.desti-card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.desti-card {
+  padding: 15px;
+  box-shadow: 0 0 10px #0000001a;
+  border-radius: 15px;
+}
+
+.desti-card .meta-tgs {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #8F8F8F;
+  font-family: 'Urbanist';
+  margin-bottom: 10px;
+}
+
+.desti-card .meta-tgs svg {
+  color: #2b70e4;
+}
+
+.desti-card h6 {
+  font-family: 'Manrope';
+  color: black;
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+
+.desti-card h5 {
+  margin-top: 10px;
+  font-size: 20px  ;
+  color: #2b70e4  ;
+}
+
+.pop-dest-sec {
+  padding: 80px 0;
+}
+
+.pop-dest-head ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pop-dest-head h6 {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.pop-dest-head {
+  margin-bottom: 30px;
+}
+
+.desti-card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.desti-card {
+  padding: 15px;
+  box-shadow: 0 0 10px #0000001a;
+  border-radius: 15px;
+}
+
+.desti-card .meta-tgs {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #8F8F8F;
+  font-family: 'Urbanist';
+  margin-bottom: 10px;
+}
+
+.desti-card .meta-tgs svg {
+  color: #2b70e4;
+}
+
+.desti-card h6 {
+  font-family: 'Manrope';
+  color: black;
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+
+.desti-card h5 {
+  margin-top: 10px;
+  font-size: 20px !important;
+  color: #2b70e4 !important;
+}
+
+.counter_sec >img {
+  width: 100%;
+  height: 450px;
+}
+
+.counter-card {
+  text-align: center;
+  background: white;
+  padding: 60px 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #00000017;
+}
+
+section.counter_sec {
+  position: relative;
+}
+
+.counter_sec-inn {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-card h6 {
+  color: #000;
+  font-size: 44px;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+.flight_card-sec {
+  padding: 80px 0;
+}
+
+.flight_card img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  filter: brightness(0.5);
+}
+
+.flight_card-inn {
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+}
+
+.flight_card {
+  text-align: center;
+  position: relative;
+}
+
+.flight_card-inn h6 {
+  color: white;
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.flight_card-inn p {
+  color: white ;
+  margin-bottom: 20px;
+}
 /* Media Query */
 
 @media only screen and (min-width: 300px) and (max-width: 519px) {
+
+
+
+  .flight_card-sec {
+    padding: 80px 0;
+}
+
+.flight_card img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(0.5);
+}
+
+.flight_card-inn {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+}
+
+.flight_card {
+    text-align: center;
+    position: relative;
+}
+
+.flight_card-inn h6 {
+    color: white;
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.flight_card-inn p {
+    color: white !important;
+    margin-bottom: 20px;
+}
+
+ .hotel-head h6 {
+    line-height: 1.2;
+}
+
+ .pop-hotel {
+    margin-bottom: 30px;
+}
+
+ .pop-dest-head ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+ .pop-dest-head ul li {
+    text-align: center;
+}
+
+ .desti-card {
+    margin-bottom: 40px;
+}
+
+ .counter-card {
+    padding: 30px 20px;
+    margin-bottom: 30px;
+}
+
+ .counter_sec > img {
+    height: 1200px;
+    object-fit: cover;
+}
+
+ .flight_card {
+    margin-bottom: 30px;
+}
   
 .contact-detail >p {
     width: 70%;
