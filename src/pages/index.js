@@ -5,7 +5,12 @@ import Header from "@/Components/Header/Header";
 import Layout from "../layout/index"
 import HomeBanner from "../Components/HomeBanner"
 import BannerForm from "../Components/BannerForm/BannerForm";
-import PlaneTrip from "@/Components/PlaneTrip/PlaneTrip";
+import PlaneTrip from "../Components/PlaneTrip/PlaneTrip";
+import HotelBook from "../Components/HotelBook"
+import DestinationCard from "../Components/DestinationCard"
+import CounterCard from "../Components/CounterCard"
+import FlightCard from "../Components/FlightCard"
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +27,10 @@ export default function Home() {
         <HomeBanner/>
         <BannerForm/>
         <PlaneTrip/>
+        <HotelBook/>
+        <DestinationCard/>
+        <CounterCard/>
+        <FlightCard/>
       </Layout>
      
     </>
